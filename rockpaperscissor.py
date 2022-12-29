@@ -1,6 +1,31 @@
 # importing the necessary libraries
 import random
+import time
+import os
 
+
+#starting game
+time.sleep(1.5)
+
+print ("\n\nStarting game", end = '')
+for i in range(3):
+    time.sleep(1)
+time.sleep(1)
+
+print ("\n\nSetting up environment", end = '')
+for i in range(3):
+    time.sleep(1)
+time.sleep(1)
+
+print ("\n\nInitialising variables", end = '')
+for i in range(3):
+    time.sleep(1)
+time.sleep(1)
+
+#clearing screen
+os.system('cls')
+time.sleep(1)
+os.system('cls')
 
 # Welcome to Game message
 print("_________________________________________________\n|\t\t\t\t\t\t|")
@@ -112,7 +137,7 @@ while True:
     elif playagain.lower() == 'n':
 
         #displaying final score
-        print("\n\n******** FINAL SCORE ********\n")
+        print("\n\n\n******** FINAL SCORE ********\n")
         print("Your score:\t\t", user_score)
         print("Computer's score:\t", comp_score)
         print("No. of rounds:\t\t", rounds)
@@ -124,11 +149,17 @@ while True:
         else:
             print("\n\nYou lost the game... Better luck next time!\n")
 
-        print("Terminating game...Goodbye :)")
+        print ("******************************\n")
 
+
+        for i in range (5, -1, -1):
+            print("Terminating game in", i, "seconds", end = '\r')
+            time.sleep(1)
         break
     
     else:
-        print("\n\nInvalid input...Terminating game\n")
+        print("\n\nInvalid input...\n")
+        for i in range (5, -1, -1):
+            print("Terminating game in", i, "seconds", end = '\r')
+            time.sleep(1)
         break
-        
