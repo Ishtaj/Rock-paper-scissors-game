@@ -130,4 +130,5 @@ while True:
     
     else:
         print("\n\nInvalid input...Terminating game\n")
+        break
         
