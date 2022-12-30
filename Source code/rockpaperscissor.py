@@ -30,8 +30,9 @@ os.system('cls')
 # Welcome to Game message
 print("_________________________________________________\n|\t\t\t\t\t\t|")
 print("|\tWELCOME TO ROCK-PAPER-SCISSORS GAME\t|")
-print("|_______________________________________________|\n\n\n")
-
+print("|_______________________________________________|\n\n")
+print("Developed by ISHTAJ KAUR DEOL & SOUMYAJIT ROY\n")
+print("---------------------------------------------\n\n")
 
 
 
