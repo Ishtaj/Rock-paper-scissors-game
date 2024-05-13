@@ -1,3 +1,5 @@
+# Developed by Ishtaj Kaur Deol
+
 # importing the necessary libraries
 import random
 import time
